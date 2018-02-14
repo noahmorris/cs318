@@ -1,7 +1,12 @@
-.card{
+.card {
     display: inline-block;
     border-width: 200px;
     border-style: dashed;
     border-color: black;
-    border-radius: 10%;
+    border-radius: 5px;
+}
+.name {
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
 }
