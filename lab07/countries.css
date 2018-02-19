@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(192, 192, 207);
+    box-sizing: border-box;
+    background-position: center;
+    background-size: 300px 300px;
+  }
+.stamp {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-style: dashed;
+    border-color: rgb(47, 112, 4); 
+    box-shadow: 5px 5px rgb(212, 14, 14);
+    
+}
+#China {
+    background-image: url("China.img.gif"),
+                      url("ChinaMap.img.jpg");
+    background-position: right top,
+                        center;
+    background-size: 50px 50px,
+                        auto 300px;
+    background-repeat: no-repeat;
+}
+
+#Canada {
+    background-image: url("Canada.img.gif"),
+                      url("CanadaMap.img.jpg");
+                      background-position: right top,
+                      center;
+  background-size: 50px 50px,
+                      auto 300px;
+  background-repeat: no-repeat;
+}
+
+#Russia {
+    background-image: url("Russia.img.gif"),
+                        url("RussiaMap.img.jpg");
+    background-position: right top,
+                        center;
+    background-size: 50px 50px,
+                        auto 300px;
+    background-repeat: no-repeat;
+}
+
+#Mexico {
+    background-image: url("Mexico.img.gif"),
+                    url("MexicoMap.img.jpg");
+    background-position: right top,
+                    center;
+background-size: 50px 50px,
+                    auto 300px;
+background-repeat: no-repeat;
+}
+
