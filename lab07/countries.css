@@ -27,11 +27,11 @@ body {
 #Canada {
     background-image: url("Canada.img.gif"),
                       url("CanadaMap.img.jpg");
-                      background-position: right top,
+    background-position: right top,
                       center;
-  background-size: 50px 50px,
+    background-size: 50px 50px,
                       auto 300px;
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 #Russia {
@@ -49,8 +49,8 @@ body {
                     url("MexicoMap.img.jpg");
     background-position: right top,
                     center;
-background-size: 50px 50px,
+    background-size: 50px 50px,
                     auto 300px;
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
