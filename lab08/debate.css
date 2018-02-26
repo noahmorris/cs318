@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+.blurb{
+    width: 90%;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 5px 5px;
+    min-height: 202px;
+    min-width: 400px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 20px;  
+}
+.left{
+    background-color: aqua;
+    margin-right: auto;
+    background-image: url("Jefferson.jpg");
+    background-size: 200px auto;
+    background-position: left;
+    padding: 0 200px;
+    border-radius: 0 75px 75px 0; 
+}
+
+.right{
+    background-color: goldenrod;
+    margin-left: auto;
+    background-image: url("Washington.jpg");
+    background-size: 200px auto; 
+    background-position: right;
+    padding: 0 125px;
+    border-radius: 75px 0 0 75px;
+}
+
+body{
+    margin: 0;
+}
+header{
+    background: linear-gradient(to right, goldenrod, aqua); 
+    box-shadow: inset 0 -10px 20px white;
+    padding-bottom: 50px; 
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    padding: 0
+}
+.Washington{
+    color: goldenrod;
+   
+}
+.Jefferson{
+    color: aqua;
+    
+}
+
+
+
+
+
