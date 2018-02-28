@@ -2,6 +2,8 @@
 var urls = [
     'http://www.traveller.com.au/content/dam/images/g/u/n/q/h/0/image.related.articleLeadwide.620x349.gunpvd.png/1488330286332.png',
     'http://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/57159-istock-486456250.jpg?itok=pYToxS1l&resize=1100x619',
+    'https://gifts.worldwildlife.org/gift-center/Images/large-species-photo/large-Quokka-photo.jpg',
+    'https://www.experienceperth.com/sites/ep/files/QuokkaRottnest2.jpg',
   ];
   
   // The index (serial number) of the current image
