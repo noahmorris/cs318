@@ -13,10 +13,6 @@ body {
     background-image: linear-gradient(salmon, salmon), linear-gradient(#1E90FF, #1E90FF);
     background-clip: content-box, padding-box;
   }
-  
-#box0 {
-
-}
 #box1 {
     padding: 5px;
     border-style: dotted;  
