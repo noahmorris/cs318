@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to bottom right,yellow,blue);
+    background-repeat: no-repeat;
+}
+.box{
+    box-sizing: content-box;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px gray;
+    background-color: antiquewhite;
+}
+.box img{
+    width: 100%;
+}
+
+nav {
+    text-align: center;
+}
+
+header {
+    background-color: blue;
+    color: yellow;
+    text-align: center;
+    font-size: 30pt;
+}
+
+footer{
+    text-align: right;
+    font-style: italic;
+}
