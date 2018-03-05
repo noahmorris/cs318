@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("cork.jpg");
+}
+
+.photo {
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    height: auto;
+    box-shadow: 5px 5px 5px grey;
+    position: relative;
+
+}
+
+.animal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pin {
+    position: absolute;
+    width: 20px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.label{
+    position: absolute;
+    font-family: Marker;
+    font-size: 10pt;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+}
+
+@font-face {
+    font-family: Marker;
+    src: url(BasicSharpie.ttf);
+  }
+
