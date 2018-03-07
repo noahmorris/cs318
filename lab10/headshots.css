@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+.photo {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+.photo:hover {
+    
+}
+
+body {
+    background-color: rgb(192, 192, 207);
+    box-sizing: border-box;
+    background-position: center;
+    background-size: 300px 300px;
+  }
+
+#jimmy {
+    background-image: url("jimmy.jpg"),
+                      linear-gradient(gray, gray);                 
+    background-position: center,
+                        center;
+    background-size: auto 300px,
+                        auto 300px;
+    background-repeat: no-repeat;
+}
+
+#wiggins {
+    background-image: url("wiggins.jpg"),
+                      linear-gradient(gray, gray);
+    background-position: center,
+                         center;
+    background-size:  auto 300px,
+                      auto 300px;
+    background-repeat: no-repeat;
+}
+
+#donald {
+    background-image: url("donald.jpg"),
+                      linear-gradient(gray, gray);
+    background-position: center,
+                        center;
+    background-size: auto 300px,
+                        auto 300px;
+    background-repeat: no-repeat;
+}
+
+#kanye {
+    background-image: url("kanye.jpg"),
+                      linear-gradient(gray, gray);
+    background-position: center,
+                    center;
+    background-size: auto 300px,
+                    auto 300px;
+    background-repeat: no-repeat;
+}
+
+.name{
+    position: absolute;
+    font-size: 25pt;
+    font-family: sans-serif;
+    bottom: -20px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    color: yellow;
+}
