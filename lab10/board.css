@@ -12,6 +12,9 @@ body {
     height: auto;
     box-shadow: 5px 5px 5px grey;
     position: relative;
+    padding-bottom: 20px;
+    margin-left: 300px;
+    margin-top: 300px;
 
 }
 
@@ -34,14 +37,27 @@ body {
 .label{
     position: absolute;
     font-family: Marker;
-    font-size: 10pt;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 25pt;
     bottom: 0;
+    text-align: center;
+    right: 0;
+    left: 0;
 }
 
 @font-face {
     font-family: Marker;
     src: url(BasicSharpie.ttf);
   }
+
+#pig {
+      transform: rotate(10deg);
+  }
+
+#horse {
+    transform: rotate(-20deg);
+}
+
+#cow {
+    transform: rotate(5deg);
+}
 
