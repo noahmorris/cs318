@@ -9,12 +9,14 @@
     margin: 10px;
     border-radius: 50%;
     position: relative;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 10px 10px 10px gray;
 
 }
 
 .photo:hover {
-    
+    box-shadow: 3px 3px 1px black;
+    top: 10px;
+    left: 10px;
 }
 
 body {
