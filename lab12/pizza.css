@@ -3,14 +3,9 @@
 }
 
 body{
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
     font: 20pt;
     font-family: serif;
     color: white;
-    height: 100%;
-    box-shadow: 0 0 10px black;
 }
 header{
     background-color: #400106;
@@ -20,24 +15,23 @@ header{
 }
 
 nav{
-    background-color: #590202;
-    float: left;
-    padding-right: 10px;
-    padding-bottom: 170px;
     width: 20%;
     text-decoration: none;
+    float: left;
 }
 
 main{
     background-color: #BF3604;
     padding: 10px;
-    margin-left: 20%;
+    width: 80%;
+    float: right;
 }
 
 footer{
     background-color: #CD4A04;
     padding: 10px;
     text-align: center;
+    clear: both;
 }
 
 ul{
@@ -68,4 +62,36 @@ a {
 
 #image{
     float: right;
+}
+
+#pepperoni{
+    float: right;
+    padding: 0 20px;
+}
+
+#supreme{
+    float: left;
+    padding: 0 20px;
+}
+
+#sausage{
+    float: right;
+    padding: 0 20px;
+}
+
+h1{
+    font-size: 15pt;
+    clear: both;
+}
+
+#wrapper{
+    background-color: #590202;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    box-shadow: 0 0 10px black;
+}
+p{
+    padding-left: 10px;
 }
