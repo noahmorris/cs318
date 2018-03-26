@@ -42,6 +42,7 @@ p{
 iframe{
     float: right;
     padding: 50px;
+    border: none;
 }
 
 h1{
