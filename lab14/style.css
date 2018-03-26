@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;  
+}
+
+body{
+    font-family: fantasy;
+    font-size: 50pt;
+    background-color: pink;
+    color: pink;
+}
+
+p{
+    font-size: 16pt;
+    color: white;
+    padding: 50px 10px;
+}
+
+.full{
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+
+#croissant{
+    background-image: url("croissant.png");
+    height: 2000px;
+}
+
+#donut{
+    background-image: url("donuts.jpeg");
+    height: 2000px;
+}
+
+#brioche{
+    background-image: url("Brioche.jpg");
+    height: 2000px;
+}
+
+iframe{
+    float: right;
+    padding: 50px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
