@@ -48,3 +48,28 @@ body{
     margin-left: 10px;
     border-radius: 50%;
 }
+
+.frame{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 5px;
+    border-style: solid;
+    margin-top: 50px;
+}
+
+#one{
+    border-color: white rgb(46, 44, 44) rgb(46, 44, 44) rgb(46, 44, 44);
+}
+
+#two{
+    border-color: white rgb(46, 44, 44) white rgb(46, 44, 44);
+}
+
+#three{
+    border-color: white white white rgb(46, 44, 44);
+}
+
+#four{
+    border-color: white;
+}
