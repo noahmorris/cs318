@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("http://www.dundjinni.com/forums/uploads/Ravenbow/49E_BrickRound70_CG_bg-a.png");
+    color: white;
+    font-size: 20pt;
+}
+
+p{
+    margin: 20% 0;
+    border: 0 0 0 5px;
+    border-style: solid;
+    border-color: yellow;
+}
