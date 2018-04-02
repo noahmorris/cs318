@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: none;
+}
+
+td{
+    border: 1px solid purple;
+}
+
+
+td{
+    width: 8em;
+    height: 8em;
+    text-align: center;
+    font-size: 12pt;
+    background-color: yellow;
+}
+
+th{
+    font-size: 20pt;
+}
+
+body{
+    background-color: aqua;
+    color: purple;
+}
