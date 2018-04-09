@@ -68,11 +68,17 @@ nav ul{
 .menu li{
     border: none;
     display: block;
-    border-bottom: 1px solid white;
+    border-top: 1px solid white;
     
 }
-.menu ul li:not(:last-child){
-    border-bottom: 1px solid white;
+
+.menu li:first-child{
+    border-top: none;
+}
+
+
+header .menu{
+    display: none;
 }
 
 
@@ -83,6 +89,36 @@ nav ul{
 
 a{
     text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    nav{
+        display: none;
+    }
+
+    header .menu{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        display:block;
+        border-left: 1px solid white;
+        font-size: 40pt;
+        height: 100px;
+        width: 100px;
+    }
+
+
+    header .menu li{
+        left: auto;
+        font-size: 20pt;
+        text-align: left;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
 }
 
 
