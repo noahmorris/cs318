@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(123, 123, 209);
+}
+
+nav li{
+    display:inline-block;
+    color: blue;
+    list-style: none;
+    border-right: 1px solid white;
+    padding: 20px 70px;
+    border: 2px solid black;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    text-align: center;
+}
+
+h1{
+    font-size: 40pt;
+    text-align: center;
+    margin-top: 100px;
+}
