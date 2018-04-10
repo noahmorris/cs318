@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    width:100%;
+    display: inline-block;
+}
+
+
+#intro{
+    font-weight: bold;
+}
+
+#mountain{
+    width: 100%;
+}
+
+#mars {
+    width: 100%;
+}
+
+#woods {
+    width: 100%;
+}
+
+#lake {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .left{
+            float: left;
+        }
+
+    .right{
+ 
+            float: right;
+        }
+
+    #mountain{
+            width: 500px;
+            margin-right: 20px;
+        }
+        
+    #mars {
+            width: 500px;
+            margin-left: 20px;
+        }
+        
+    #woods {
+            width: 500px;
+            margin-right: 20px;
+        }
+        
+    #lake {
+            width: 500px;
+            margin-left: 20px;
+        }
+}
