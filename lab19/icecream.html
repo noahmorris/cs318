@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ice Cream</title>
+    <link type="text/css" rel="stylesheet" href="icecream.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="https://formspree.io/morrisnj5419@uwec.edu" method="POST">
+        <h1> Chillax Order Form</h1>
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Who are you?</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="name" name="name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="flavor">What flavor?</label>
+            </div>
+            <div class="col-75">
+                <select name="flavor" size="4">
+                    <option value="chocolate">Chocolate</option>
+                    <option value="strawberry">Strawberry</option>
+                    <option value="vanilla">Vanilla</option>
+                    <option value="mintcc">Mint Chocolate Chip</option>
+                  </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="cone">In what?</label>
+            </div>
+            <div class="col-75">
+                <select name="cone" size="3">
+                    <option value="waffle">Waffle</option>
+                    <option value="sugar">Sugar</option>
+                    <option value="dish">Dish</option>
+                  </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Sprinkles</label>
+            </div>
+            <div class="col-75">
+              <input type="checkbox" id="sprinkles" name="sprinkles">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="name">How messy are you?</label>
+            </div>
+            <div class="col-75">
+                <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Order">
+          </div>
+        </form>
+    </div>  
+</body>
+
+</html>
