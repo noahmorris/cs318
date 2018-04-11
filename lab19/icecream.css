@@ -10,7 +10,7 @@ h1{
 }
 
 
-input[type=text], select, textarea {
+input[type=text], select{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -24,23 +24,27 @@ label {
 }
 
 input[type=submit] {
-    color: white;
+    background-color: white;
+    color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    float: right;
+    float: none;
+    margin-left: 200px;
+    margin-top: 10px;
+
 }
 
 
 .container {
     border-radius: 5px;
-    background-color: azure;
+    background-color: lightblue;
     padding: 20px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 300px;
-    height: 500px;
+    height: 600px;
     width: 500px;
 }
 
@@ -62,12 +66,6 @@ input[type=submit] {
     clear: both;
 }
 
-.slidecontainer{
-    width: 460px;
-    display: block;
-
-
-}
 
 .slider{
     width: 75%;
