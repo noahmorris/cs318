@@ -53,17 +53,21 @@ h1{
 }
 
 #jim{
-    display: block;
+    display: inline-block;
     height: 100px;
     width: 100px;
-    float: left;
+    margin-top: 10%;
 }
 
 #bruce{
-    display: block;
+    display: inline-block;
     height: 100px;
     width: 100px;
-    float: left;
+    margin-top: 10%;
+}
+
+.pic{
+    display: inline-block;
 }
 
 
