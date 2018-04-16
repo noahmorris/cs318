@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+.card{
+    width: 2000px;
+    position: absolute;
+   
+}
+
+img{
+    width:20%;
+    z-index: 1;
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+input[type="checkbox"]{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    z-index: 2;
+}
+
+.hand{
+    position: relative;
+    display: block;
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+.card:nth-child(1){
+    left: 0;
+}
+
+.card:nth-child(2){
+    left: 10%;
+}
+
+.card:nth-child(3){
+    left: 20%;
+}
+
+.card:nth-child(4){
+    left: 30%;
+}
+
+.card:nth-child(5){
+    left: 40%;
+}
+
+input[type="checkbox"]:unchecked, input[type="checkbox"]:checked+img{
+    transform: translate(0, 100px)
+}
+input[type="checkbox"]:checked, input[type="checkbox"]:checked+img{
+    transform: translate(0, 100px)
+}
+
+
+
