@@ -76,6 +76,7 @@ h1{
 
 li{
     padding: 20px;
+    list-style: square;
 }
 
 #mn{
