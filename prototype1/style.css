@@ -72,15 +72,6 @@ h1{
 
 .pic{
     display: inline-block;
-}
-
-li{
-    padding: 20px;
-    list-style: square;
-}
-
-#mn{
-    display: inline-block;
     height: 100px;
     width: 100px;
     margin-top: 10%;
@@ -88,7 +79,13 @@ li{
     margin-left: 5%;
 }
 
-#wi{
+li{
+    padding: 20px;
+    list-style: square;
+}
+
+
+.state{
     display: inline-block;
     height: 100px;
     width: 100px;
@@ -103,7 +100,7 @@ nav li:hover{
 }
 
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 700px) {
     body{
         font-size: 20pt;
     }
