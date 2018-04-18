@@ -5,6 +5,7 @@
 
 body{
     background-color: rgb(123, 123, 209);
+    font-size: 20pt;
 }
 
 nav li{
@@ -70,31 +71,42 @@ h1{
     margin-left: 5%;
 }
 
+
+
+main li{
+    padding: 20px;
+    list-style: square;
+    text-align: left;
+}
+
+main ul{
+    text-align: center;
+    list-style-position: inside; 
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 1200px;
+}
+
+
+
+
+.state{
+    display: inline-block;
+    height: 300px;
+    width: 200px;
+}
+
 .pic{
     display: inline-block;
 }
 
-li{
-    padding: 20px;
-    list-style: square;
-}
 
-#mn{
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    margin-top: 10%;
-    margin-right: 5%;
-    margin-left: 5%;
+#iowa{
+    width: 400px;
 }
 
 #wi{
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    margin-top: 10%;
-    margin-right: 5%;
-    margin-left: 5%;
+    width: 300px;
 }
 
 nav li:hover{
@@ -102,10 +114,24 @@ nav li:hover{
     
 }
 
+#center{
+   width: 1200px;
+   margin-top: 3%;
+   margin-left: 30%;
+   margin-right: auto;
 
-@media (max-width: 700px) {
+}
+
+#il,#iowa{
+    margin-top: 10%;
+}
+
+
+
+
+@media only screen and (max-width: 750px) {
     body{
-        font-size: 20pt;
+        font-size: 30pt;
     }
     nav{
         width: 100%;
@@ -142,4 +168,34 @@ nav li:hover{
         height: 200px;
     }
     
+    .state{
+        display: block;
+        width: 50%;
+        height: 400px;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    #mn{
+        height: 600px;
+        width: 30%;
+    }
+
+    #il{
+        width: 30%;
+    }
+
+    .pic{
+        text-align: center;
+    }
+
+    #center{
+        margin: 0;
+    }
+
+    main ul{
+        margin-left: 0;
+    }
+
+   
 }
