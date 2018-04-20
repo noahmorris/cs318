@@ -55,20 +55,22 @@ h1{
 
 #jim{
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 250px;
     margin-top: 10%;
     margin-right: 5%;
     margin-left: 5%;
+    transform: rotate(90deg);
 }
 
 #bruce{
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 250px;
     margin-top: 10%;
     margin-right: 5%;
     margin-left: 5%;
+    transform: rotate(90deg);
 }
 
 
@@ -160,12 +162,12 @@ nav li:hover{
 
     #jim{
         width: 50%;
-        height: 200px;
+        height: 10%;
     }
 
     #bruce{
         width: 50%;
-        height: 200px;
+        height: 10%;
     }
     
     .state{
@@ -197,5 +199,8 @@ nav li:hover{
         margin-left: 0;
     }
 
+    h2{
+        text-align: center;
+    }
    
 }
