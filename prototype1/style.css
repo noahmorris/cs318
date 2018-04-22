@@ -117,10 +117,11 @@ nav li:hover{
 }
 
 #center{
-   width: 1200px;
+   width: 100%;
    margin-top: 3%;
-   margin-left: 30%;
+   margin-left: auto;
    margin-right: auto;
+   text-align: center;
 
 }
 
@@ -180,7 +181,7 @@ nav li:hover{
 
     #mn{
         height: 600px;
-        width: 30%;
+        width: 50%;
     }
 
     #il{
