@@ -54,30 +54,36 @@ h1{
 }
 
 #jim{
-    display: inline-block;
+    display: block;
     height: 200px;
     width: 250px;
     margin-top: 10%;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
     transform: rotate(90deg);
 }
 
 #bruce{
-    display: inline-block;
+    display: block;
     height: 200px;
     width: 250px;
     margin-top: 10%;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
     transform: rotate(90deg);
 }
 
-
-
+h2{
+    text-align: center;
+}
 main li{
     padding: 20px;
     list-style: square;
+    text-align: left;
+}
+
+p, main a{
+    padding: 10px;
     text-align: left;
 }
 
@@ -89,19 +95,11 @@ main ul{
     width: 1200px;
 }
 
-
-
-
 .state{
     display: inline-block;
     height: 300px;
     width: 200px;
 }
-
-.pic{
-    display: inline-block;
-}
-
 
 #iowa{
     width: 400px;
@@ -109,6 +107,7 @@ main ul{
 
 #wi{
     width: 300px;
+    margin-top: 100px;
 }
 
 nav li:hover{
