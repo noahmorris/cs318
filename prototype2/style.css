@@ -136,6 +136,7 @@ nav li:hover{
     body{
         font-size: 25pt;
         width: 100%;
+        margin: 0;
     }
     nav{
         width: 100%;
@@ -201,6 +202,7 @@ nav li:hover{
 
     main ul{
         margin-left: 0;
+        width: 750px;
     }
 
     h2{
